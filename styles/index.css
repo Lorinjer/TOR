@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container
+{
+    max-width: 1620px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.g-button
+{
+    cursor: pointer;
+    padding: 10px 40px;
+    background-color: white;
+    border: none;
+
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #0068BF;
+
+    transition: .2s all ease;
+}
+
+.g-button--blue
+{
+    background-color: #0068BF;
+    color: white;
+}
+.g-button:hover
+{
+    opacity: .8;
+    scale: 1.03;
+}
+
+.g-button:active { scale: 0.97; }

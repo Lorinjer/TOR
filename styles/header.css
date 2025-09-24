@@ -1,0 +1,48 @@
+.header
+{
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    position: fixed;
+}
+
+.header .container
+
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header__nav
+{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.header__nav-link
+{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+
+    transition: .2s all ease;
+}
+
+.header__nav-link:hover
+{
+    color: #fca3a3;
+    scale: 1.1;
+}
+
+.header__nav-link:active
+{
+    scale: 0.95;
+}
