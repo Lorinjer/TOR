@@ -1,0 +1,18 @@
+.services-grid { margin-bottom: 100px;}
+
+.services-grid__title
+{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.services-grid__items
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.services-grid__item-img { width: 270px; }
+.services { margin-bottom: 100px;}
